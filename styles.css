@@ -25,7 +25,8 @@
 
 .column1 {
 	background-color: #CCF0E8;
-	opacity: 1;
+    opacity: 1;
+    background-position: center;
 }
 .column1:hover {
     opacity: 1;
@@ -35,14 +36,17 @@
 }
 .column2 {
     background-color: #ffbdbd;
+    background-position: center;
 }
 .column2:hover {
     background-image: url(2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .column3 {
     background-color: #A1CDE4;
+    background-position: center;
 }
 .column3:hover {
     background-image: url(3.jpg);
@@ -51,6 +55,7 @@
 }
 .column4 {
     background-color: #f1cbff;
+    background-position: center;
 }
 .column4:hover {
     background-image: url(4.jpg);
