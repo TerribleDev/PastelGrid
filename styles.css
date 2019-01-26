@@ -13,47 +13,47 @@
 }
 
 .column {
-	display: grid;
-	grid-template-columns: repeat(3, 4vw);
-	grid-template-rows: repeat(10, 8vh);
-	transition: 1s ease;
+  display: grid;
+  grid-template-columns: repeat(3, 4vw);
+  grid-template-rows: repeat(10, 8vh);
+  transition: 1s ease;
 }
 
 .column:hover {
-	padding-right: 15vw;
+  padding-right: 15vw;
 }
 
 .column1 {
-	background-color: #CCF0E8;
-	opacity: 1;
+  background-color: #ccf0e8;
+  opacity: 1;
 }
 .column1:hover {
-    opacity: 1;
-    background-image: url(1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  opacity: 1;
+  background-image: url(1jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .column2 {
-    background-color: #ffbdbd;
+  background-color: #ffbdbd;
 }
 .column2:hover {
-    background-image: url(2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(2jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .column3 {
-    background-color: #A1CDE4;
+  background-color: #a1cde4;
 }
 .column3:hover {
-    background-image: url(3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(3jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .column4 {
-    background-color: #f1cbff;
+  background-color: #f1cbff;
 }
 .column4:hover {
-    background-image: url(4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(4jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
