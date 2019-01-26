@@ -1,0 +1,59 @@
+.container {
+  max-width: 75%;
+  margin: 1em auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 98vh;
+  grid-gap: 1vw;
+  margin: 0 auto;
+  max-width: 96rem;
+}
+
+.column {
+	display: grid;
+	grid-template-columns: repeat(3, 4vw);
+	grid-template-rows: repeat(10, 8vh);
+	transition: 1s ease;
+}
+
+.column:hover {
+	padding-right: 15vw;
+}
+
+.column1 {
+	background-color: #CCF0E8;
+	opacity: 1;
+}
+.column1:hover {
+    opacity: 1;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column2 {
+    background-color: #ffbdbd;
+}
+.column2:hover {
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column3 {
+    background-color: #A1CDE4;
+}
+.column3:hover {
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column4 {
+    background-color: #f1cbff;
+}
+.column4:hover {
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
